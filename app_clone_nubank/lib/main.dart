@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Nubank',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       home: const HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

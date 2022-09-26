@@ -1,3 +1,5 @@
+import 'package:app_clone_nubank/pages/account/account.dart';
+import 'package:app_clone_nubank/pages/actions/menu_items.dart';
 import 'package:app_clone_nubank/pages/home/model/header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,6 +22,8 @@ class _HomePageState extends State<HomePage> {
         color: Colors.white,
         child: Column(children: const [
           Header(),
+          AccountNubank(),
+          MenuItems(),
         ]),
       )),
     );
